@@ -1,9 +1,7 @@
 .body {
     background-color: #1F2937;
-    padding: 0;
-    margin: 0;
     text-align: center;
-    font-family: "Roberto", arial;
+    font-family: 'Roboto', arial;
 }
 
 .container {
@@ -15,7 +13,6 @@
     background-color: #1F2937;
     color: #f9FAf8;
     display: flex;
-    align-items: center;
 }
 
 .header-logo img {
@@ -29,7 +26,8 @@
 .header-links {
     display: flex;
     margin-left: auto;
-    padding: 0px 200px 0px 0px;
+    align-items: center;
+    padding: 0px 100px 0px 0px;
 }
 
 .header-links a {
@@ -38,3 +36,56 @@
     font-size: 18px;
     padding: 10px;
 }
+
+/* welcome part */
+
+.welcome-section {
+    display: flex;
+    color: #f9FAf8;
+    background-color: #1F2937;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 50px;
+}
+
+.welcome-content {
+    flex-basis: 500px;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.welcome-content h1 {
+    color: #f9FAf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+.welcome-content p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.welcome-content button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.welcome-content button:hover {
+    box-shadow: 0 8px 16px 0 #f9FAf8, 0 6px 20px 0 #E5E7EB;
+}
+
+.welcome-img img {
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+/* Random info part */
